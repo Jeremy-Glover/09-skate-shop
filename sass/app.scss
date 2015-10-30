@@ -1,6 +1,22 @@
+@import "bourbon";
+@import "neat";
+@import "normalize";
+$fa-font-path: "//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts";
+@import "font-awesome";
+
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+body {
+  background: url(img/bg.jpg)
+}
+
+.container {
+  max-width: 1040px;
+  margin: auto;
 }
