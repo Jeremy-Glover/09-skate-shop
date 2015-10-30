@@ -4,6 +4,9 @@
 $fa-font-path: "//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts";
 @import "font-awesome";
 
+$brand_red: rgb(162, 40, 45);
+$border_white: rgb(245, 248, 249);
+
 html {
   box-sizing: border-box;
 }
@@ -13,10 +16,82 @@ html {
 }
 
 body {
-  background: url(img/bg.jpg)
+  /*background: url(img/bg.jpg)*/
+  background: green;
 }
 
 .container {
-  max-width: 1040px;
+  display: flex;
+  max-width: 1000px;
   margin: auto;
+
+  padding: 10px;
+}
+
+.top-nav {
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+
+  height: 2rem;
+  width: 100%;
+  padding: 1rem;
+
+
+}
+
+.icon-nav {
+  display: flex;
+  list-style: none;
+}
+
+.nav__icons {
+  padding: 1rem;
+
+}
+
+.nav-site {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.nav-item {
+  color: $border_white;
+  width: 14rem;
+  padding: .5rem;
+  text-align: center;
+  border: 5px $brand_red solid;
+  background-color: $brand_red;
+  text-decoration: none;
+}
+
+
+
+.hero {
+  display: flex;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+}
+
+.hero-img {
+  flex-grow: 1;
+}
+
+.three-up {
+  margin: auto;
+  display: flex;
+  flex: 1 0 calc(100% / 3 - 10px);
+  padding: 10px;
+
+}
+
+.three-up_item {
+  background: $border_white;
+  border: 1px $border_white solid;
+  margin: 10px;
+  padding: 10px;
 }
