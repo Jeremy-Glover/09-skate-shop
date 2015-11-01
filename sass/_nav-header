@@ -1,0 +1,68 @@
+.top-nav {
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+
+  height: 2rem;
+  width: 100%;
+  padding: 1rem;
+}
+
+.icon-nav {
+  display: flex;
+  list-style: none;
+}
+
+.subscribe {
+  color: $border_white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.fa-circle {
+  color: $border_white;
+  font-size: 5px;
+}
+
+.icon-nav {
+
+}
+
+.nav__icons {
+  padding: 1rem;
+
+}
+
+.nav-site {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.nav-item {
+  color: $border_white;
+  width: 14rem;
+  padding: .5rem;
+  text-align: center;
+  border: 5px $brand_red solid;
+  background-color: $brand_red;
+  text-decoration: none;
+
+}
+
+
+.hero {
+  border: $border_style;
+}
+
+.logo {
+  position: absolute;
+  top: 16%;
+  left: 14%;
+}
+
+.radio-btns {
+  text-align: center;
+  align-content: center;
+  margin: 15px auto;
+}

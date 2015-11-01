@@ -1,0 +1,15 @@
+.three-up {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex: 1 0 calc(100% / 3);
+  padding: 10px;
+
+}
+
+.three-up_item {
+  background: $border_white;
+  border: 1px $border_white solid;
+  margin: 10px;
+  padding: 10px;
+}

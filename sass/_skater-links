@@ -1,0 +1,68 @@
+.skater-links {
+  max-width: 1000px;
+  position: relative;
+  margin: 20px auto;
+}
+
+.skater-links__items {
+  position: relative;
+}
+
+.item-tall {
+  float: right;
+  width: calc(33.333% - 10px);
+  height: 37.5rem;
+  margin: 5px;
+  border: $border_style;
+  overflow: hidden;
+}
+
+
+.item-small {
+  float: left;
+  width: calc(33.333% - 10px);
+  margin: 5px;
+  border: $border_style;
+  overflow: hidden;
+
+}
+
+.item-wide {
+  float: left;
+  width: calc(66.666% - 10px);
+  margin: 5px;
+  border: $border_style;
+  overflow: hidden;
+}
+
+.skater-name-1 {
+  position: absolute;
+
+  left: 55%;
+  top: 55%;
+
+
+}
+
+.skater-name-2 {
+  position: absolute;
+  top: 10%;
+}
+
+.skater-name-3 {
+  position: absolute;
+
+}
+
+.skater-name-4 {
+  position: absolute;
+}
+.arrow {
+  position: absolute;
+  right: 105%;
+  top: 55%;
+  width: 15rem;
+  background: $brand_red;
+
+  margin: right 5px;
+}
