@@ -1,0 +1,10 @@
+.skateboard-items {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px auto;
+  max-width: 100%;
+  padding: 10px;
+  background: $border_white;
+  justify-content: space-around;
+  box-shadow: $drop_shadow;
+}

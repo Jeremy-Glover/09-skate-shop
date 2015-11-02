@@ -37,25 +37,25 @@
   color: rgba(130, 146, 150, 0.5);
 }
 
-.fa-facebook {
+#nav-facebook {
   padding: 1.2rem;
   background-color: rgb(43, 77, 128);
   box-shadow: $drop_shadow;
 }
 
-.fa-rss {
+#nav-rss {
   padding: 1.2rem;
   background-color: rgb(182, 115, 54);
   box-shadow: $drop_shadow;
 }
 
-.fa-twitter {
+#nav-twitter {
   padding: 1.2rem;
   background-color: rgb(64, 124, 153);
   box-shadow: $drop_shadow;
 }
 
-.fa-youtube {
+#nav-youtube {
   padding: 1.2rem;
   background-color: $brand_red;
   box-shadow: $drop_shadow;

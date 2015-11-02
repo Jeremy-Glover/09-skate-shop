@@ -38,33 +38,5 @@ img {
 @import "nav-header";
 @import "three-up";
 @import "skater-links";
-
-.skateboard-items {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 10px auto;
-  max-width: 100%;
-  padding: 10px;
-  background: $border_white;
-  justify-content: space-around;
-  box-shadow: $drop_shadow;
-}
-
-.contact-form {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 100%;
-  margin: 20px auto;
-  background: $border_white;
-  box-shadow: $drop_shadow;
-}
-
-.left-column {
-  width: 55%;
-  padding-right: 10px;
-}
-
-.right-column {
-  width: 45%;
-  padding-left: 10px;
-}
+@import "skateboard-items";
+@import "contact-form";

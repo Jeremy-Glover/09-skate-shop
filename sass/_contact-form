@@ -1,0 +1,39 @@
+.contact-form {
+  display: flex;
+  align-items: center;
+
+  max-width: 100%;
+  margin: 20px auto;
+
+  background: $border_white;
+  box-shadow: $drop_shadow;
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: flex-start;
+
+  list-style: none;
+  color: gray;
+}
+.left-column {
+  display: flex;
+  flex-flow: column;
+  align-items: left;
+  justify-content: center;
+  width: 55%;
+  margin: 2rem;
+
+}
+
+#bottom-facebook {
+  display: flex;
+  background-color: gray;
+}
+
+.right-column {
+  display: flex;
+  flex-flow: column;
+  width: 45%;
+  margin: 2rem;
+}

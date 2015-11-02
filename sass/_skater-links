@@ -4,6 +4,7 @@
   position: relative;
   margin: auto;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .skater-links__items {
@@ -51,23 +52,42 @@
   box-shadow: $drop_shadow;
 }
 
-.skater-name-1 {
-  position: absolute;
 
-  left: 55%;
-  top: 55%;
+.skater-name-1 {
+  display: flex;
+  position: absolute;
+  top: 58%;
+  left: 13%;
+  font-size: 4rem;
+  color: $border_white;
 }
 
 .skater-name-2 {
+  display: flex;
+  font-size: 4rem;
+  width: 2rem;
+  color: $border_white;
   position: absolute;
-  top: 10%;
+  top: 35%;
+  right: 26%;
 }
 
 .skater-name-3 {
+  display: flex;
   position: absolute;
-
+  top: 5%;
+  left: 40%;
+  font-size: 4rem;
+  width: 2rem;
+  color: $border_white;
 }
 
 .skater-name-4 {
+  display: flex;
   position: absolute;
+  top: 5%;
+  left: 5%;
+  font-size: 4rem;
+  width: 2rem;
+  color: $border_white;
 }
