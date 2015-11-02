@@ -1,8 +1,9 @@
+
 .top-nav {
   display: flex;
   justify-content:flex-end;
   align-items: center;
-
+  margin-top: 2rem;
   height: 2rem;
   width: 100%;
   padding: 1rem;
@@ -24,45 +25,75 @@
   font-size: 5px;
 }
 
-.icon-nav {
-
+.circle-border {
+  display: flex;
+  flex-direction: column;
+  padding: 1.7rem;
 }
 
 .nav__icons {
-  padding: 1rem;
+  padding: .2rem;
+  font-size: 2.5rem;
+  color: rgba(130, 146, 150, 0.5);
+}
 
+.fa-facebook {
+  padding: 1.2rem;
+  background-color: rgb(43, 77, 128);
+  box-shadow: $drop_shadow;
+}
+
+.fa-rss {
+  padding: 1.2rem;
+  background-color: rgb(182, 115, 54);
+  box-shadow: $drop_shadow;
+}
+
+.fa-twitter {
+  padding: 1.2rem;
+  background-color: rgb(64, 124, 153);
+  box-shadow: $drop_shadow;
+}
+
+.fa-youtube {
+  padding: 1.2rem;
+  background-color: $brand_red;
+  box-shadow: $drop_shadow;
 }
 
 .nav-site {
   display: flex;
-  justify-content: space-between;
-
+  list-style: none;
+  margin-top: 3rem;
 }
 
 .nav-item {
-  color: $border_white;
-  width: 14rem;
+  margin: 10px;
+  width: 15rem;
   padding: .5rem;
   text-align: center;
+  color: $border_white;
   border: 5px $brand_red solid;
   background-color: $brand_red;
-  text-decoration: none;
-
+  box-shadow: $drop_shadow;
 }
 
-
 .hero {
+  position: relative;
+  width: 100%;
   border: $border_style;
+  box-shadow: $drop_shadow;
+
 }
 
 .logo {
   position: absolute;
-  top: 16%;
-  left: 14%;
+  top: 10%;
+  left: 2%;
 }
 
 .radio-btns {
   text-align: center;
-  align-content: center;
-  margin: 15px auto;
+  margin: 1rem auto;
+  transform: scale(2);
 }

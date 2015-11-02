@@ -1,15 +1,35 @@
 .three-up {
-  max-width: 1000px;
+  max-width: 100%;
   margin: auto;
   display: flex;
-  flex: 1 0 calc(100% / 3);
-  padding: 10px;
 
+  padding: 1rem;
 }
 
-.three-up_item {
+.three-up-item {
+  display: flex;
+  flex: calc(100% / 3);
+  flex-direction: column;
+
+  margin: 1rem;
+  padding: 1rem;
+  font-weight: lighter;
   background: $border_white;
   border: 1px $border_white solid;
-  margin: 10px;
-  padding: 10px;
+  box-shadow: $drop_shadow;
+}
+
+h3 {
+  font-size: 1.6rem;
+  font-weight: lighter;
+}
+
+.three-up-item__link {
+  text-align: center;
+  color: $brand_red;
+  font-weight: bold;
+}
+
+.three-up-item__info {
+  color: lightgray;
 }

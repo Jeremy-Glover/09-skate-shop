@@ -7,6 +7,7 @@ $fa-font-path: "//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts";
 $brand_red: rgb(162, 40, 45);
 $border_white: rgb(245, 248, 249);
 $border_style: 8px $border_white solid;
+$drop_shadow: 0 6px 0 0 rgba(192, 195, 196, 0.7);
 
 html {
   box-sizing: border-box;
@@ -17,40 +18,45 @@ html {
 }
 
 body {
-  /*background: url(img/bg.jpg)*/
-  background: green;
+  background: url(img/bg.jpg)
+  /*background: green;*/
+}
+
+img {
+  vertical-align: top;
 }
 
 .container {
   display: flex;
-
   max-width: 1000px;
   margin: auto;
-
   padding: 10px;
 }
+
+
 
 @import "nav-header";
 @import "three-up";
 @import "skater-links";
 
-
-
 .skateboard-items {
   display: flex;
   flex-wrap: wrap;
-  margin: auto;
-  max-width: 1000px;
+  margin: 10px auto;
+  max-width: 100%;
   padding: 10px;
   background: $border_white;
   justify-content: space-around;
+  box-shadow: $drop_shadow;
 }
 
 .contact-form {
   display: flex;
   flex-wrap: wrap;
+  max-width: 100%;
   margin: 20px auto;
   background: $border_white;
+  box-shadow: $drop_shadow;
 }
 
 .left-column {
