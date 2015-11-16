@@ -1,23 +1,52 @@
 .contact-form {
   display: flex;
   max-width: 100%;
-  margin: auto;
+  align-items: baseline;
   background: $border_white;
   box-shadow: $drop_shadow;
 }
 
-.bottom-nav {
-  display: flex;
-  justify-content: flex-start;
-  list-style: none;
-  color: gray;
-}
 .left-column {
   display: flex;
   flex-flow: column;
   flex: 1;
-  align-items: left;
+  text-align: left;
   margin: 2rem;
+  color: $brand_grey;
+  font-weight: bold;
+}
+
+.nav-bottom {
+  display: flex;
+  text-align: left;
+  margin: 0;
+}
+
+.bottom-icons {
+  padding: 1rem;
+  list-style: none;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.bottom-icons i {
+  padding: .5rem;
+}
+
+.fa-facebook{
+  background-color: #555;
+}
+
+.fa-rss {
+  background-color: #666;
+}
+
+.fa-twitter {
+  background-color: #777;
+}
+
+.fa-youtube {
+  background-color: #888;
 }
 
 .right-column {
@@ -27,10 +56,23 @@
   margin: 2rem;
 }
 
+.right-column__items {
+  margin: .5rem 0;
+  text-transform: uppercase;
+}
+
 #name, #email {
   box-shadow: inset 2px 2px 2px 0px $brand_grey;
 }
 
 #message {
   box-shadow: inset 2px 2px 2px 0px $brand_grey;
+}
+
+#submit {
+  width: 15rem;
+  align-self: flex-end;
+  color: white;
+  background: $brand_red;
+  border: 1rem $brand_red solid;
 }
