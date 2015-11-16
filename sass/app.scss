@@ -5,6 +5,7 @@ $fa-font-path: "//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts";
 @import "font-awesome";
 
 $brand_red: rgb(162, 40, 45);
+$brand_grey: rgb(84, 83, 84);
 $border_white: rgb(245, 248, 249);
 $border_style: 8px $border_white solid;
 $drop_shadow: 0 6px 0 0 rgba(192, 195, 196, 0.7);
@@ -19,7 +20,6 @@ html {
 
 body {
   background: url(img/bg.jpg)
-  /*background: green;*/
 }
 
 img {
@@ -33,10 +33,10 @@ img {
   padding: 10px;
 }
 
-
-
 @import "nav-header";
 @import "three-up";
 @import "skater-links";
 @import "skateboard-items";
 @import "contact-form";
+@import "mobile";
+@import "tablet";
