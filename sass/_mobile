@@ -24,7 +24,7 @@
     flex-wrap: wrap;
     justify-content: center;
     width: 40%;
-    margin: 4rem;
+    margin: 3rem;
   }
 
   .nav-item {
@@ -63,7 +63,7 @@
   .skater-links__items {
     display: flex;
     flex-direction: column;
-    margin-left: 1.5rem;
+    margin-right: 10rem;
   }
 
   .item-tall {
