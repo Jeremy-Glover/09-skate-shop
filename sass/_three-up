@@ -1,8 +1,7 @@
 .three-up {
-  max-width: 100%;
+  width: 100%;
   margin: auto;
   display: flex;
-
   padding: 1rem;
 }
 
@@ -10,7 +9,6 @@
   display: flex;
   flex: calc(100% / 3);
   flex-direction: column;
-
   margin: 1rem;
   padding: 1rem;
   font-weight: lighter;

@@ -1,3 +1,69 @@
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 641px) and (max-width: 960px) {
+//Header
+  .top-nav {
+    justify-content: flex-start;
+  }
 
+  .nav-item {
+    width: 10rem;
+    height: 2rem;
+    padding: .3rem;
+    margin: .3rem;
+    border: none;
+    font-size: .8rem;
+  }
+
+  .hero-img, .radio {
+    display: none;
+  }
+
+  .hero {
+  border: none;
+  box-shadow: none;
+  }
+
+  .logo {
+    display: flex;
+    position: relative;
+  }
+
+  //Articles
+  .three-up {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin-left: 2rem;
+  }
+
+  //Skateboard Professionals
+  .skater-links__items {
+    margin-left: 3rem;
+
+  }
+  .item-tall {
+    display: none;
+  }
+
+  .item-wide {
+    margin: 10px;
+  }
+
+  .arrow, .arrow:after {
+    display: none;
+  }
+
+//Skateboards
+  .skateboard-items {
+    justify-content: center;
+    width: 70%;
+    margin-left: 1.8rem;
+  }
+
+//Contact Form
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 2rem;
+  }
 }

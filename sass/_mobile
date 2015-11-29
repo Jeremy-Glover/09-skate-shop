@@ -1,4 +1,117 @@
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 640px) {
+//Header
+  .top-nav {
+    justify-content: flex-start;
+    padding: 0;
+    list-style-type: none;
+    margin-left: 0;
+  }
+
+  .fa {
+    font-size: 1.2rem;
+  }
+
+  .fa-circle {
+    display: none;
+  }
+
+  .subscribe {
+    margin: 0;
+  }
+
+  .nav-site {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 40%;
+    margin: 4rem;
+  }
+
+  .nav-item {
+    display: flex;
+    width: 10rem;
+    height: 2rem;
+    margin: .5rem;
+    align-self: center;
+    border: none;
+    font-size: .6rem;
+  }
+
+  .hero-img, .radio {
+    display: none;
+  }
+
+  .hero {
+  border: none;
+  box-shadow: none;
+  }
+
+  .logo {
+    display: flex;
+    position: relative;
+  }
+
+  //Articles
+  .three-up {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin-left: 1rem;
+  }
+
+  //Skateboard Professionals
+  .skater-links__items {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+  }
+
+  .item-tall {
+    display: none;
+  }
+
+  .item-wide {
+    width: 40%;
+    margin: 10px;
+  }
+
+  .item-small {
+    width: 40%
+  }
+
+  .skater-name {
+    font-size: 2.3rem;
+  }
+
+  .skater-name-3 {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+  }
+
+  .skater-name-1 {
   display: flex;
-  flex-direction: column;
+  position: absolute;
+  top: 80%;
+  left: 3%;
+}
+
+  .arrow, .arrow:after {
+    display: none;
+  }
+
+//Skateboards
+  .skateboard-items {
+    justify-content: center;
+    width: 35%;
+    margin-left: 1rem;
+  }
+
+//Contact Form
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
 }

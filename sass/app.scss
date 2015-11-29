@@ -28,9 +28,9 @@ img {
 
 .container {
   display: flex;
-  max-width: 1000px;
+  flex-direction: column;
+  width: 1000px;
   margin: auto;
-  padding: 10px;
 }
 
 @import "nav-header";
