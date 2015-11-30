@@ -1,9 +1,5 @@
-@media screen and (min-width: 641px) and (max-width: 960px) {
+@media screen and (max-width: 960px) {
 //Header
-  .top-nav {
-    justify-content: flex-start;
-  }
-
   .nav-item {
     width: 10rem;
     height: 2rem;
@@ -31,39 +27,29 @@
   .three-up {
     display: flex;
     flex-direction: column;
-    width: 65%;
-    margin-left: 2rem;
   }
 
   //Skateboard Professionals
   .skater-links__items {
-    margin-left: 3rem;
-
-  }
-  .item-tall {
-    display: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
-  .item-wide {
-    margin: 10px;
+  .skater-item {
+    clear: both;
+    width: calc(60% - 10px);
+    height: auto;
   }
 
   .arrow, .arrow:after {
     display: none;
   }
 
-//Skateboards
-  .skateboard-items {
-    justify-content: center;
-    width: 70%;
-    margin-left: 1.8rem;
-  }
-
 //Contact Form
   .contact-form {
     display: flex;
     flex-direction: column;
-    width: 70%;
-    margin-left: 2rem;
+    align-items: center;
   }
 }

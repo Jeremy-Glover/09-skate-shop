@@ -1,6 +1,6 @@
 .contact-form {
   display: flex;
-  max-width: 100%;
+  width: 100%;
   align-items: baseline;
   background: $border_white;
   box-shadow: $drop_shadow;
