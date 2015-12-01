@@ -73,10 +73,14 @@
   width: 15rem;
   padding: .5rem;
   text-align: center;
-  color: $border_white;
   border: 5px $brand_red solid;
   background-color: $brand_red;
   box-shadow: $drop_shadow;
+  text-decoration-style: none;
+
+  a {
+    color: $border_white;
+  }
 }
 
 .hero {
@@ -99,5 +103,4 @@
 .radio-btns {
   text-align: center;
   margin: 1rem auto;
-  transform: scale(2);
 }
