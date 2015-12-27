@@ -29,5 +29,5 @@ h3 {
 }
 
 .three-up-item__info {
-  color: lightgray;
+  color: rgb(164, 167, 167);
 }

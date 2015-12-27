@@ -31,7 +31,7 @@
     justify-content: center;
   }
 
-  .arrow, .arrow:after {
-    display: none;
+  .skater-name {
+    font-size: 1.5rem;
   }
 }

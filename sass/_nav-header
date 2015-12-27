@@ -30,34 +30,31 @@
   padding: 1.7rem;
 }
 
-.nav__icons {
-   padding: .2rem;
-   font-size: 2.5rem;
-   color: rgba(130, 146, 150, 0.5);
+.nav-icons {
+  padding: .2rem;
+  font-size: 1.5rem;
+  color: rgba(130, 146, 150, 0.5);
  }
 
-#nav-facebook {
-  padding: 1.2rem;
-  background-color: rgb(43, 77, 128);
+.nav-icons__social i {
+  padding: 1rem;
   box-shadow: $drop_shadow;
+}
+
+#nav-facebook {
+  background-color: rgb(43, 77, 128);
 }
 
 #nav-rss {
-  padding: 1.2rem;
   background-color: rgb(182, 115, 54);
-  box-shadow: $drop_shadow;
 }
 
 #nav-twitter {
-  padding: 1.2rem;
   background-color: rgb(64, 124, 153);
-  box-shadow: $drop_shadow;
 }
 
 #nav-youtube {
-  padding: 1.2rem;
   background-color: $brand_red;
-  box-shadow: $drop_shadow;
 }
 
 .nav-site {
@@ -76,10 +73,10 @@
   border: 5px $brand_red solid;
   background-color: $brand_red;
   box-shadow: $drop_shadow;
-  text-decoration-style: none;
 
   a {
     color: $border_white;
+    text-decoration: none;
   }
 }
 
